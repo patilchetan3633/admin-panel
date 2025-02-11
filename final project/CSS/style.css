@@ -1,0 +1,44 @@
+
+body{
+    background-color: #F6F6F6;
+}
+.sidebar-1 {
+    width: 330px;
+    background-color: #15283C;
+    color: white;
+}
+.sidebar-2 {
+    width: 100px;
+    background-color: #15283C;
+    color: white;
+}
+.sidebar .sidebar-header{
+    background-color: #214162;
+}
+.sidebar .sidebar-header .img{
+    width: 70px;
+}
+.sidebar .sidebar-header ul{
+    list-style: none;
+}
+.sidebar .sidebar-body ul{
+    list-style: none;
+}
+.icon-info{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+.user-info{
+    list-style: none;
+    margin: 0%;
+    margin-left: 10px;
+    padding: 0%;
+    padding: 10px;
+}
+
+@media (max-width: 767px) {
+    .user-info{
+        display: none;
+    }
+}
